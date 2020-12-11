@@ -33,6 +33,11 @@ app.get('/about', (req, res)=>{
                         { title: 'LSR Company',
                             message: 'this is message from me'  })
                         })
+app.get('/contact', (req, res)=>{     
+    res.render('about',
+                        { title: 'LSR Company',
+                            message: 'this is message from me'  })
+                        })
 // app.get('/help',(req, res)=>{
 //     res.send('Express Help!')
 // });
